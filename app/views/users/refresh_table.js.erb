@@ -1,0 +1,10 @@
+console.log("hello");
+$.ajax({
+  type: "GET",
+  url: "/users",
+  success: function(response) {
+  	console.log(response);
+    $("#users_table").html("<%= escape_javascript(render partial: 'users_list' ) %>");
+  }
+});
+event.preventDefault();
