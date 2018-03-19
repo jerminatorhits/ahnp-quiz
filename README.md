@@ -1,24 +1,15 @@
-# README
+## AHNP Quiz:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails 5 project logs unique user agents into a database and keeps track of number of times each agent has visited the website.
 
-Things you may want to cover:
+The live project can be found here: https://ahnp-test.herokuapp.com/
 
-* Ruby version
+## Setup:
 
-* System dependencies
+1. Run `git clone https://github.com/jerminatorhits/ahnp-quiz.git`
+2. Change directory into the folder using `cd ahnp-quiz`
+3. Run `bundle install` to install the dependencies.
+4. Run `rails start` to start the server.
+5. Navigate to `http://localhost:3000`.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+P.S. This project uses postgresql instead of the default sqlite database. Be sure to have postgresql installed and perform the necessary migrations if required.
